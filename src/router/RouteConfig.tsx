@@ -10,11 +10,11 @@ const GetRouters = () => {
     const routes = useRoutes([
         // 默认路由
         {
-            path: 'practice_react/',
+            path: 'practice_react/Login',
             element: <Login />
         },
         {
-            path: 'practice_react/TodoList',
+            path: 'practice_react/',
             element: <TodoList />
         },
 
