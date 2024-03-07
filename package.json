@@ -2,7 +2,7 @@
   "name": "why-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "./",
+  "homepage": "https://huanghaifenga.github.io/",
   "type": "module",
   "scripts": {
     "start": "vite",
