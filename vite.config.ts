@@ -9,8 +9,7 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `
-          @import "./src/scss/fontface.scss";
-          @import "./src/scss/scrollbar.scss";
+          @import "./src/scss/App.scss";
         `
       }
     }

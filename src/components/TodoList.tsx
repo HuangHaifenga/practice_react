@@ -1,5 +1,5 @@
 import { SetStateAction, useEffect, useState } from 'react'
-import '../App.scss'
+import '../scss/App.scss'
 
 
 

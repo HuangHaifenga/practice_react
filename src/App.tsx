@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 // import {useNavigate} from 'react-router-dom'
-import './App.scss'
+import './scss/App.scss'
 import RoterConfig from '../src/router/RouteConfig.tsx'
 // 测试
 function App() {
