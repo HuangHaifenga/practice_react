@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^20.11.25",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.22.2",
@@ -31,5 +32,4 @@
     "vite": "^5.1.4"
   },
   "homepage": "https://huanghaifenga.github.io/practice_react/"
-
 }
