@@ -20,10 +20,9 @@ jobs:
           yarn
           yarn build
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 这里是我们刚刚创建密钥的变量名称
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: build
-
-
+          FOLDER: dist
+          CLEAN: true
